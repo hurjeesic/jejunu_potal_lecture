@@ -2,28 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1b37152b-6fb0-4bd8-a08b-263fc36c6a7c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/build/classes/java/main/kr/ac/jejunu/user/ConnectionMaker.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/classes/java/main/kr/ac/jejunu/user/JejuConnectionMaker.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/classes/java/test/kr/ac/jejunu/user/HallaConnectionMaker.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/kr/ac/jejunu/user/ConnectionMaker.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/6.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1/executionHistory/executionHistory.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/6.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1/executionHistory/executionHistory.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/6.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1/fileHashes/fileHashes.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/6.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1/fileHashes/fileHashes.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/6.1/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1/fileHashes/resourceHashesCache.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/6.1/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1/javaCompile/classAnalysis.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/6.1/javaCompile/jarAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1/javaCompile/jarAnalysis.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/6.1/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1/javaCompile/javaCompile.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/6.1/javaCompile/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1/javaCompile/taskHistory.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/kr/ac/jejunu/user/DaoFactory.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/kr/ac/jejunu/user/HallaUserDao.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/kr/ac/jejunu/user/JejuUserDao.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/kr/ac/jejunu/user/UserDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/kr/ac/jejunu/user/UserDao.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/test/kr/ac/jejunu/user/UserDaoTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/test/kr/ac/jejunu/user/UserDaoTests.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/kr/ac/jejunu/user/HallaUserDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/kr/ac/jejunu/user/JejuConnectionMaker.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/kr/ac/jejunu/user/JejuUserDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/kr/ac/jejunu/user/HallaConnectionMaker.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/kr/ac/jejunu/user/UserDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/kr/ac/jejunu/user/UserDao.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/kr/ac/jejunu/user/UserDaoTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/kr/ac/jejunu/user/UserDaoTests.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -196,10 +176,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="754" y="297" key="chooseDestDirectoryDialog/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1586516315417" />
-    <state x="690" y="268" key="extract.method.dialog" timestamp="1587112757971">
+    <state x="690" y="268" key="extract.method.dialog" timestamp="1587114968642">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="690" y="268" key="extract.method.dialog/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1587112757971" />
+    <state x="690" y="268" key="extract.method.dialog/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1587114968642" />
     <state x="752" y="265" key="refactoring.ChangeSignatureDialog" timestamp="1587114181314">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
