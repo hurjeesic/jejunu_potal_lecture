@@ -2,8 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1b37152b-6fb0-4bd8-a08b-263fc36c6a7c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/kr/ac/jejunu/user/DaoFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/checksums/checksums.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/checksums/checksums.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/checksums/md5-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/checksums/md5-checksums.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/checksums/sha1-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/checksums/sha1-checksums.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/kr/ac/jejunu/user/DaoFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/kr/ac/jejunu/user/DaoFactory.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/kr/ac/jejunu/user/UserDaoTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/kr/ac/jejunu/user/UserDaoTests.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -53,6 +60,7 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="extract.method.default.visibility" value="private" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/src/main/java/kr/ac/jejunu/user" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -62,14 +70,14 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="File.Encoding" />
+    <property name="settings.editor.selected.configurable" value="preferences.editor" />
   </component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="kr.ac.jejunu.user" />
     </key>
   </component>
-  <component name="RunManager" selected="Android JUnit.UserDaoTests.insert">
+  <component name="RunManager" selected="Android JUnit.UserDaoTests.get">
     <configuration name="UserDaoTests.get" type="AndroidJUnit" factoryName="Android JUnit" temporary="true" nameIsGenerated="true">
       <module name="userdao.test" />
       <extension name="coverage">
@@ -106,8 +114,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Android JUnit.UserDaoTests.insert" />
         <item itemvalue="Android JUnit.UserDaoTests.get" />
+        <item itemvalue="Android JUnit.UserDaoTests.insert" />
       </list>
     </recent_temporary>
   </component>
@@ -122,6 +130,9 @@
       <option name="presentableId" value="Default" />
       <updated>1586515539309</updated>
       <workItem from="1586515545257" duration="2236000" />
+      <workItem from="1587467151703" duration="93000" />
+      <workItem from="1587543024387" duration="1827000" />
+      <workItem from="1587710574015" duration="2251000" />
     </task>
     <servers />
   </component>
@@ -144,22 +155,22 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="690" y="266" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1587114039009" />
-    <state width="1877" height="282" key="GridCell.Tab.0.bottom" timestamp="1587114292902">
+    <state width="1877" height="282" key="GridCell.Tab.0.bottom" timestamp="1587713538736">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1587114292902" />
-    <state width="1877" height="282" key="GridCell.Tab.0.center" timestamp="1587114292902">
+    <state width="1877" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1587713538736" />
+    <state width="1877" height="282" key="GridCell.Tab.0.center" timestamp="1587713538736">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.center/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1587114292902" />
-    <state width="1877" height="282" key="GridCell.Tab.0.left" timestamp="1587114292902">
+    <state width="1877" height="282" key="GridCell.Tab.0.center/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1587713538736" />
+    <state width="1877" height="282" key="GridCell.Tab.0.left" timestamp="1587713538736">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.left/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1587114292902" />
-    <state width="1877" height="282" key="GridCell.Tab.0.right" timestamp="1587114292902">
+    <state width="1877" height="282" key="GridCell.Tab.0.left/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1587713538736" />
+    <state width="1877" height="282" key="GridCell.Tab.0.right" timestamp="1587713538736">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.right/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1587114292902" />
+    <state width="1877" height="282" key="GridCell.Tab.0.right/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1587713538736" />
     <state x="663" y="298" width="593" height="479" key="RefactorJ.ExtractClass" timestamp="1587113984232">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -168,10 +179,14 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="775" y="454" key="ReplaceDuplicatesPrompt/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1587112760026" />
-    <state x="461" y="164" key="SettingsEditor" timestamp="1587112812736">
+    <state x="461" y="164" key="SettingsEditor" timestamp="1587467233967">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="461" y="164" key="SettingsEditor/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1587112812736" />
+    <state x="461" y="164" key="SettingsEditor/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1587467233967" />
+    <state width="498" height="446" key="SwitcherDM" timestamp="1587115169619">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="498" height="446" key="SwitcherDM/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1587115169619" />
     <state x="754" y="297" key="chooseDestDirectoryDialog" timestamp="1586516315417">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -180,13 +195,21 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="690" y="268" key="extract.method.dialog/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1587114968642" />
+    <state x="339" y="180" key="new project wizard" timestamp="1587546435202">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="339" y="180" key="new project wizard/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1587546435202" />
     <state x="752" y="265" key="refactoring.ChangeSignatureDialog" timestamp="1587114181314">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="752" y="265" key="refactoring.ChangeSignatureDialog/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1587114181314" />
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1587112796722">
+    <state x="616" y="240" key="run.anything.popup" timestamp="1587115184257">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1587112796722" />
+    <state x="616" y="240" key="run.anything.popup/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1587115184257" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1587712726287">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1587712726287" />
   </component>
 </project>
