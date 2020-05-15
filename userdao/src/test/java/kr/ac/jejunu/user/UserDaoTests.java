@@ -16,11 +16,38 @@ public class UserDaoTests {
     String name = "jimen";
     String password = "1234";
 
-    private  static UserDao userDao;
+    private static UserDao userDao;
 
     @BeforeAll
     public static void setup() {
-        ApplicationContext applicationContext = new AnnotationConfigApplicationContext(DaoFactory.class);
+        ApplicationContext applicationContext = new AnnotationConfigApplicationContext("kr.ac.jejunu.user"); // annotation을 통한 환경 설정
+//        ApplicationContext applicationContext = new AnnotationConfigApplicationContext(DaoFactory.class);
+
+        // 정적으로 환경 설정
+//        StaticApplicationContext applicationContext = new StaticApplicationContext();
+//
+//        BeanDefinition dataSourceBeanDefinition = new RootBeanDefinition(SimpleDriverDataSource.class);
+//        dataSourceBeanDefinition.getPropertyValues().addPropertyValue("driverClass",
+//                Class.forName(System.getenv("DB_CLASSNAME")));
+//        dataSourceBeanDefinition.getPropertyValues().addPropertyValue("url",
+//                System.getenv("DB_URL"));
+//        dataSourceBeanDefinition.getPropertyValues().addPropertyValue("username",
+//                System.getenv("DB_USERNAME"));
+//        dataSourceBeanDefinition.getPropertyValues().addPropertyValue("password",
+//                System.getenv("DB_PASSWORD"));
+//        applicationContext.registerBeanDefinition("dataSource", dataSourceBeanDefinition);
+//
+//        BeanDefinition jdbcContextBeanDefinition = new RootBeanDefinition(JdbcTemplate.class);
+//        jdbcContextBeanDefinition.getConstructorArgumentValues().addGenericArgumentValue(new RuntimeBeanReference("dataSource"));
+//        applicationContext.registerBeanDefinition("jdbcContext", jdbcContextBeanDefinition);
+//
+//        BeanDefinition beanDefinition = new RootBeanDefinition(UserDao.class);
+//        beanDefinition.getConstructorArgumentValues().addGenericArgumentValue(new RuntimeBeanReference("jdbcContext"));
+//        applicationContext.registerBeanDefinition("userDao", beanDefinition);
+
+//        ApplicationContext applicationContext = new ClassPathXmlApplicationContext("daoFactory.xml"); // xml을 통한 환경 설정
+//        ApplicationContext applicationContext = new GenericGroovyApplicationContext("daoFactory.groovy"); // groovy를 통한 환경 설정
+
         userDao = applicationContext.getBean("userDao", UserDao.class);
     }
 
