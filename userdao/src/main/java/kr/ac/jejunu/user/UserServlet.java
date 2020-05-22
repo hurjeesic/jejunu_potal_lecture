@@ -25,13 +25,15 @@ public class UserServlet extends GenericServlet {
 
     @Override
     public void service(ServletRequest req, ServletResponse res) throws ServletException, IOException {
-        User user = userDao.get(1);
+        System.out.println("*********************** service ***********************");
+        User user = userDao.get(91);
         StringBuilder stringBuilder = new StringBuilder();
         stringBuilder.append("<html>");
         stringBuilder.append("<h1>");
         stringBuilder.append(String.format("Hello %s!!!", user.getName()));
         stringBuilder.append("</h1>");
         stringBuilder.append("</html>");
+        res.setContentType("text/html; charset=UTF-8");
         res.getWriter().println(stringBuilder.toString());
     }
 }
