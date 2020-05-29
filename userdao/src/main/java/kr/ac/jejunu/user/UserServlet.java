@@ -1,12 +1,16 @@
 package kr.ac.jejunu.user;
 
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
+import org.springframework.stereotype.Controller;
 
 import javax.servlet.*;
 import java.io.IOException;
 
+@Controller("/userServlet")
 public class UserServlet extends GenericServlet {
+    @Autowired
     private UserDao userDao;
 
     @Override
@@ -26,7 +30,7 @@ public class UserServlet extends GenericServlet {
     @Override
     public void service(ServletRequest req, ServletResponse res) throws ServletException, IOException {
         System.out.println("*********************** service ***********************");
-        User user = userDao.get(91);
+        User user = userDao.get(1);
         StringBuilder stringBuilder = new StringBuilder();
         stringBuilder.append("<html>");
         stringBuilder.append("<h1>");
