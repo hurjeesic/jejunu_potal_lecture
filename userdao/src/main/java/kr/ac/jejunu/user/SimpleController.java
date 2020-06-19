@@ -13,7 +13,7 @@ public class SimpleController implements Controller {
 
 	@Override
 	public ModelAndView handleRequest(HttpServletRequest request, HttpServletResponse response) {
-		User user  = userDao.get(Integer.valueOf(request.getParameter("id")));
+		User user = userDao.findById(Integer.valueOf(request.getParameter("id"))).get();
 		ModelAndView modelAndView = new ModelAndView("user");
 
 		modelAndView.addObject("user", user);

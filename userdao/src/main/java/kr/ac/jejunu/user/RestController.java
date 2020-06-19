@@ -11,13 +11,11 @@ public class RestController {
 
 	@GetMapping("/{id}")
 	public User get(@PathVariable("id") Integer id) {
-		return userDao.get(id);
+		return userDao.findById(id).get();
 	}
 
 	@PostMapping("/")
 	public User create(@RequestBody User user) {
-		userDao.insert(user);
-
-		return user;
+		return userDao.save(user);
 	}
 }

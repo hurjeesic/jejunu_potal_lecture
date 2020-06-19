@@ -20,7 +20,7 @@ public class UserController {
 
 	@RequestMapping(value = "/user")
 	public User getUser(@RequestParam("id") Integer id) {
-		return userDao.get(id);
+		return userDao.findById(id).get();
 	}
 
 	@RequestMapping("/exception")
